@@ -21,7 +21,7 @@
 
 ---
 
-## 🎯 Objectifs du Lab
+##  Objectifs du Lab
 L'objectif est de réaliser un audit de sécurité statique complet sur l'application **Lab8.apk** afin de détecter des failles de configuration, des fuites de données et des non-conformités aux standards internationaux de sécurité mobile.
 
 ---
@@ -80,7 +80,7 @@ Le fichier `AndroidManifest.xml` est la porte d'entrée de l'application. Nous v
 
 ---
 
-## 🔐 Étape 3 : Analyse des Permissions
+##  Étape 3 : Analyse des Permissions
 Nous listons les permissions demandées pour vérifier le principe du "Moindre Privilège".
 - **Permissions détectées :**
   - `INTERNET` : Nécessaire pour les Web Services.
@@ -126,7 +126,7 @@ Nous associons les failles trouvées aux standards de l'OWASP.
 
 ---
 
-## 📄 Étape 7 : Synthèse
+##  Étape 7 : Synthèse
 C'est le résumé final avant la conclusion.
 
 <img width="845" height="657" alt="image" src="https://github.com/user-attachments/assets/e39f05ab-9704-4533-8669-51d5790c7c10" />
@@ -138,7 +138,7 @@ Génération du rapport de synthèse destiné aux développeurs.
 - **Score de sécurité final :** 33/100 (Risque Élevé).
 - **Livrables générés :** `rapport_final.md`, `endpoints.txt`, `vulnerabilites.txt`.
 
-![Génération du rapport PDF final](screens/08_final_report.png)
+<img width="1367" height="703" alt="image" src="https://github.com/user-attachments/assets/c7cefee7-4019-4227-882d-a93131f40f6d" />
 
 ---
 
