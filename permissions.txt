@@ -1,0 +1,6 @@
+AUDIT DES PERMISSIONS - Applications LAB8
+------------------------------------------
++ Aucune permission DANGEUREUSE détectée.
++ Permission normale identifiée : Internet.
++ Note: L'application est conforme au principe de moindre privilège.
+-------------------------------------

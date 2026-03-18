@@ -1,0 +1,15 @@
+RAPPORT DE CONFORMITÉ OWASP MASVS-LAB8
+--------------------------------------
+
+Vulnérabilité : Communication non chiffrée (HTTP)
+Réference MASVS : MASVSNETWORK-1
+Description: le Traffic réseau doit être chiffré via TLS
+Preuve: usesCleartextTraffic=true dans le Manifest et endpoints HTTP
+Impact: Interception des donnézs d'étudiants (MITM)
+
+Vulnérabilité : Fuite d'informations via les logs
+Réference MASVS : MASVS-STORAGE-3
+Description: les données sensibles ne doivent pas être loguées
+Preuve: Alerte MobSF CWE-532 dans AddEtudiant.java
+Impact: Lecture des données privées via adb logcat
+

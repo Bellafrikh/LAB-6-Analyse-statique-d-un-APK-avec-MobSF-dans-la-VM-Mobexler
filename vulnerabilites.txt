@@ -1,0 +1,12 @@
+ANALYSE DU CODE SOURCE-LAB8
+---------------------------
+Alerte Détécté: Exposition potentielle via les logs (CWE-532)
+
++ Fichiers: AddEtudiant.java, MainActivity.java
++ Risque: Fuite de données privées d'étudiants dans la console systeme
++ Recommandation: Désactiver les loges de déboggage avent la production
+
+ANALYSE DES SECRETS
+------------------
++ Aucun secret hardcodé (API Keys, Credentials) détecté par MobSF
++ Conclusion: L'application ne contient pas d'identifiants statiques exposés

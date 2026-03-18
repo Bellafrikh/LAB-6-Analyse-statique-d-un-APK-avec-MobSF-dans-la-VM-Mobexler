@@ -1,0 +1,5 @@
+ENDPOINTS CRITIQUES IDENTIFIÉS
+------------------------------
++ http://10.0.2.2/lab8/ws/createetudiant.php (Sourec: AddEtudiant.java)
++ http://10.0.2.2/lab8/ws/loadetudiant.php (Sourec: MainActivity.java)
+! Absence totale de chiffrement TLS sur les flux métiers

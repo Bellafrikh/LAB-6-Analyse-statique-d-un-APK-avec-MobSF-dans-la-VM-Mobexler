@@ -1,0 +1,12 @@
+RÉSULTATS DE L AUDIT DES FICHIERS-LAB8
+-------------------------------------
+Fichier network_security_config.xml : INTROUVABLE
+L'application ne définit pas de politique réseau granulaire
+La sécurité réseau est gérée globalement dans le Manifest ou absente
+-------------------------------------
+! usesCleartexttraffic : TRUE (Sévérité: HIGH)
++ networkSecurityConfig: Présent (@xml/network_security_config)
+
+RÉSUMÉ: L'application force l'autorisation du trafic HTTP non chiffré ---> Attaque MITM
+PREUVE TECHNIQUE: Fichier network_security_config identifié avec l'ID 0x7f13006
+L'analyse statique confirme que cet ID pointe vers une config autorisant le HTTP

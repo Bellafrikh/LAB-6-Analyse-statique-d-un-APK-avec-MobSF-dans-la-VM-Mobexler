@@ -1,0 +1,20 @@
+TOP VULNÉRABILITÉS-LAB8 (AANALYSE CRITIQUES)
+--------------------------------------------
+
+1. [ÉLEVÉE] Communications non chiffrées (HTTP)
+Description: L'application communique en HTTP avec le serveur 10.0.2.2
+Impact: Vol de données personnelles (nom, CNE) via interception réseau
+
+2. [Moyenne] Composants exportés (Receivers)
+Description: Le profileInstallReceiver est accessible sans permission
+Impact: Risque de manipulation de l'état de l'application par des apps malveillantes
+
+3. [FAAIBLE] Fuite d'information via les logs(CWE-532)
+Description: Utilisation de log.d() dans AddEtudiant.java
+Impact: Exposition des données saisies dans la console système (ADB)
+
+ANALYSE DES FAUX POSITIFS POTENTIELS: 
+--------------------------------------
+[FP] Firebase/google Services: MobSf peut signaler des clés API google Maps
++ Justification: Ces clés sont publiques par nature. Si elles sont restreintes
+ au package de l'app sur la console Google, le risque est null 

@@ -1,0 +1,20 @@
+Date d'analyse : Tue 17 Mar 2026 06:09:18 PM EDT
+Analyste : [BELLAFRIKH ZAYNAB]
+VM Mobexler version : version pas disponible
+APK analysé : app-debug.apk
+fdcb4f8b24435020a850c58bb91ff78085f6494feb9bfeda924b7a9ea3b18e49  app-debug.apk
+MobSF Version : [MobSF v4.0.6]
+Début d'analyse : Tue 17 Mar 2026 06:27:26 PM EDT
+Fin d'analyse : Tue 17 Mar 2026 06:34:26 PM EDT
+Score de Sécurité : 33/100 
+---Informations App Lab8---
+Package : com.example.Lab8
+Main Activity : com.example.Lab8.AddEtudiant
+Target SDK : 36 | Min SDK : 26
+---Analyse de configuration---
+Debuggable : OUI
+AllowBackup : OUI
+Protection réseau : OUI
+---Analyse de manifeste---
+Vulnérabilité manifeste : usesCleartextTraffic, debuggable, allowBackup, exported
+Rapport exporté: MobSF_Report_lab6_2026-03-17.pdf

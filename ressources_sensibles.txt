@@ -1,0 +1,4 @@
+RESSOURCES SENSIBLES-BILAN FINAL
+--------------------------------
++ Aucune ressources sensible (DB, Scripts, Config) détectée par File Analysis.
++ L'application respecte les bonnes pratiques de stockage de ressources statiques

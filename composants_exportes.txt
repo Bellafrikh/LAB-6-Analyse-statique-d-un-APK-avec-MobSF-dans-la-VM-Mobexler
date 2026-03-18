@@ -1,0 +1,6 @@
+ANALYSE DES COMPOSANTS EXPORTÉS -LAB8
+-------------------------------------
+! BROADCAST RECEIVE EXPORTÉ DÉTECTÉ: 
+ + Composant: android.profileinstaller.profileInstallReceiver
+ Statut: Exporté (True) et protéger par android.permission.DUMP
+ Risque: Potentiel accès par des apps tierces si le niveau de protection de la permission est faible
