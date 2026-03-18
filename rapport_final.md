@@ -1,6 +1,6 @@
 # RAPPORT D'ANALYSE STATIQUE - PROJET LAB8
 **Date d'analyse :** 18 Mars 2026  
-**Analyste :** Zaynab Bellafrikh (4IIR-G10)  
+**Analyste :** Zaynab Bellafrikh (4IIR-G2)  
 **Application :** Lab8 (com.example.lab8)  
 
 ---
